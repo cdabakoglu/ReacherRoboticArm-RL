@@ -58,18 +58,21 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ## Report
 ### Algorithm
 The agent is trained by using one of the Actor-Critic methods: Deep Deterministic Policy Gradient (DDPG) algorithm. The deep neural network has following layers:
-
+```bash
   Actor
+  
     - Fully Connected Layers (input: 33, output: 128)
     - Fully Connected Layers (input: 128, output: 64)
     - Fully Connected Layers (input: 64, output: 4)
     
   Critic
+  
     - Fully Connected Layers (input: 33, output: 128)
     - Fully Connected Layers (input: 132, output: 128)
     - Fully Connected Layers (input: 128, output: 1)
-    
- Parameters:
+```
+```bash
+Parameters:
  
     - Gamma: 0.99
     - Actor Alpha (Learning Rate): 0.001
@@ -79,7 +82,7 @@ The agent is trained by using one of the Actor-Critic methods: Deep Deterministi
     - Replay Buffer Size: 100000
     - Batch Size: 64
     - Update Every: 4
-    
+```   
 ### Results
 ![episodes](images/episodes.png)
 ![plot](images/plot.png)
