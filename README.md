@@ -85,7 +85,7 @@ Parameters:
 ```   
 ### Results
 ![episodes](images/episodes.png)
-![plot](images/plot.png)
+![plot](images/plot_train.png)
 
 ### Future Works
     - PPO
