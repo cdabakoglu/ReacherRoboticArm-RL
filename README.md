@@ -3,8 +3,6 @@ This project repository is created to show my solution for Udacity's [Deep Reinf
 Project 2: Continuous Control.
 
 ## Environment
-In this project agent is trained to navigate and collect bananas in a large, square world.
-
 ![Arms](images/reacher.gif)
 
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
